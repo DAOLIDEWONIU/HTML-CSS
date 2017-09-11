@@ -1,11 +1,11 @@
 
 # html、css 学习 （不定期更新）
 
-*弹性盒子-子级宽度分配不均*
+## 弹性盒子-子级宽度分配不均
 
         解决：子级设置 ： width：0;
         
-*transition 多个属性值*
+## transition 多个属性值
 
         1、ease：（逐渐变慢）默认值，ease函数等同于贝塞尔曲线(0.25, 0.1, 0.25, 1.0).
         
@@ -19,7 +19,7 @@
         
         6、cubic-bezier：（该值允许你去自定义一个时间曲线）， 特定的cubic-bezier曲线。 (x1, y1, x2, y2)四个值特定于曲线上点P1和点P2。所有值需在[0, 1]区域内，否则无效。
 
-*鼠标连续点击a标签，全部选中变蓝色*
+## 鼠标连续点击a标签，全部选中变蓝色
 
          .ie7 {
              display: inline-block;
@@ -27,7 +27,7 @@
              *display: inline;
          }
          
-*ie7下display: inline-block失效*
+## ie7下display: inline-block失效
 
         .box{
              display: inline-block;
@@ -35,7 +35,7 @@
              *display: inline;
          }
          
-*ie6、ie7、ie8中overflow:hidden无效*
+## ie6、ie7、ie8中overflow:hidden无效
 
         ----产生原因：
         
@@ -48,29 +48,29 @@
         发现在ie6和ie7里面overflow:hidden无效,还是会超出外层div
         后来在外层div上面加上position:relative就解决了
         
-*网站排版，读取图片失败，清缓存正常*
+## 网站排版，读取图片失败，清缓存正常
 
         解决：以图片为例， xx.png -->xx.png?v=2这个时候，程序不会在缓存里面找，回到服务器请求。
         
-*移动端-点击输入框的瞬间会出现灰色背景*   
+## 移动端-点击输入框的瞬间会出现灰色背景  
      
         input{
             -webkit-text-size-adjust: none;
             -webkit-tap-highlight-color: rgba(0,0,0,0);  
         }
         
-*移动端-长按禁止复制选中*      
+## 移动端-长按禁止复制选中
     
         -moz-user-select: none;
         -webkit-user-select: none;
         
-*清除页面滚动条 （此时还是可以滚动，只是看不见滚动条）*   
+## 清除页面滚动条 （此时还是可以滚动，只是看不见滚动条） 
         
         ::-webkit-scrollbar{
             display: none;
         }
   
-*清除浮动*
+## 清除浮动
         
         /*IE下清除浮动*/
         .clearfloat {
@@ -85,7 +85,7 @@
             height: 0;
         }
         
-*清除浮动的几种方式*  
+## 清除浮动的几种方式
       
       1，父级div定义 height
        
@@ -163,7 +163,7 @@
        
       建议：不推荐使用，只作了解。
     
-*移动端-flex布局*
+## 移动端-flex布局
 
         ---第一种
         .flexouter{
@@ -192,7 +192,7 @@
         -ms-flex: 1;
         flex: 1;
         
-*时间戳转化为固定格式*
+## 时间戳转化为固定格式
 
         var newDate=new Date();
         //这里的时间返回格式的函数是固定的写法，需要写成全局
@@ -221,16 +221,16 @@
         //调用
         newDate.format('yyyy-MM-dd h:m:s')
         
-*数据化图表运用*
+## 数据化图表运用
         
 [echarts](http://echarts.baidu.com/examples.html)
          
-*css鼠标选中文字改变背景色*
+## css鼠标选中文字改变背景色
 
         ::-moz-selection{background:#FFFFFF; color:#000000;} 
         ::selection {background:#FFFFFF; color:#000000; } 
         
-*设置font-size:100%的目的和作用*
+## 设置font-size:100%的目的和作用
         
         假如你设置body{font-size:12px;}
         
@@ -242,7 +242,7 @@
         
         　　2. 这些元素本身不会继承父体的字体大小，设置了font-size:100%后就能自动继承。
         
-*使文字垂直居中==>伪元素*
+## 使文字垂直居中==>伪元素
 
         //同时也适用于父级高度是百分比的情况
         //父级
