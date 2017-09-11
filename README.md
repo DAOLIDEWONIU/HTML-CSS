@@ -223,7 +223,7 @@
         
 *数据化图表运用*
         
-         [echarts](http://echarts.baidu.com/examples.html)
+[echarts](http://echarts.baidu.com/examples.html)
          
 *css鼠标选中文字改变背景色*
 
@@ -267,5 +267,5 @@
         
 *浏览器兼容性问题及解决方案*
 
-         [浏览器兼容性](https://juejin.im/post/59a3f2fe6fb9a0249471cbb4)
+[浏览器兼容性](https://juejin.im/post/59a3f2fe6fb9a0249471cbb4)
         
