@@ -265,7 +265,7 @@
             vertical-align:middle;
         }
         
-*浏览器兼容性问题及解决方案*
+## 浏览器兼容性问题及解决方案
 
 [浏览器兼容性](https://juejin.im/post/59a3f2fe6fb9a0249471cbb4)
         
